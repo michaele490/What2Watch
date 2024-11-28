@@ -24,6 +24,7 @@ body{
     display: flex;
     justify-content: center; /* Centers content horizontally */
     align-items: center; /* Centers content vertically */
+    position: relative;
 }
 
 #title_container{
@@ -42,6 +43,24 @@ body{
 }
 
 .navbar-nav{
-    background-color: orange;
-    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    height: 90px;
+    font-size: 28px;
+    vertical-align: middle;
+    line-height: 90px;
+}
+
+.nav-item{
+    border: 2px solid #6A00CC;
+    border-radius: 40px;
+    padding-right: 20px;
+    margin-right: 20px;
+    width: 200px;
+    height: 95px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 95px;
 }
