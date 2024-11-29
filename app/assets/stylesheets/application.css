@@ -70,8 +70,18 @@ body{
 }
 
 .col-md-6{
-    background-color: aqua;
     height: 150px;
     vertical-align: middle;
     line-height: 150px;
+}
+
+.add_content_btn{
+    background-color: #ffecff;
+    height: 135px;
+    border-radius: 25px;
+    border: 2px solid black;
+    vertical-align: middle;
+    line-height: 135px;
+    text-align: center;
+    width: 300px;
 }
