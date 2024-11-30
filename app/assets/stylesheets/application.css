@@ -30,6 +30,7 @@ body{
 #title_container{
     background-color: #17FFEC;
     text-align: center;
+    text-decoration: none;
     color: #DF1AA0;
     height: 80px;
     margin-left: 45px;
@@ -63,7 +64,6 @@ body{
 }
 
 .container{
-    border: 2px solid black;
     text-align: center;
     margin-top: 25px;
     height: 150px;
@@ -84,4 +84,21 @@ body{
     line-height: 135px;
     text-align: center;
     width: 300px;
+    font-weight: bold;
+}
+
+.col-md-6{
+    height: 475px;
+}
+
+.add_later{
+    height: 65vh;
+}
+
+.later_form{
+    display: block;
+}
+
+.form_container{
+    background-color: #ffecff;
 }
